@@ -16,17 +16,17 @@ categories = ["web-programming::http-server"]
 edition = "2018"
 
 [dependencies]
-chrono = "0.4.10"
-futures-util = "0.3.1"
-http = "0.2.0"
-hyper = "0.13.0"
-mime_guess = "2.0.1"
+chrono = "0.4.11"
+futures-util = "0.3.4"
+http = "0.2.1"
+hyper = "0.13.5"
+mime_guess = "2.0.3"
 percent-encoding = "2.1.0"
-tokio = { version = "0.2.4", features = ["fs", "macros"] }
-url = "2.1.0"
+tokio = { version = "0.2.20", features = ["fs", "macros"] }
+url = "2.1.1"
 
 [dev-dependencies]
 tempdir = "0.3.7"
 
 [target.'cfg(windows)'.dependencies]
-winapi = { version = "0.3.6", features = ["winbase"] }
+winapi = { version = "0.3.8", features = ["winbase"] }

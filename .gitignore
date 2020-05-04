@@ -11,4 +11,3 @@
 *.dummy
 *.exe
 target/
-Cargo.lock
